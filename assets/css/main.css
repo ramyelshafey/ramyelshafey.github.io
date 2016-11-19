@@ -167,10 +167,11 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+		-moz-animation: bg 8s linear infinite; 
+		-webkit-animation: bg 8s linear infinite;
+		-ms-animation: bg 8s linear infinite;
+		animation: bg 8s linear infinite;
+		/* changed 60s to 8s to slow the animation */
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
