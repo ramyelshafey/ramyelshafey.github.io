@@ -181,7 +181,11 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #8AAFC6 url("images/bg.jpg") fixed left;
+		background: #8AAFC6 url("images/bg.jpg") left;
+		/*
+		Test1: 'fixed left' was a failure;
+		Test2: 'left' 
+		*/
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
