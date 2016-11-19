@@ -181,10 +181,11 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #88A145 url("images/bg.jpg") top left;
-		background-repeat: no-repeat;
+		background: #88A145 url("images/bg.jpg") center center;
 		/*
-		background-repeat: repeat-x;	horizontal repeat */
+		background-repeat: no-repeat; */
+		
+		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
 		opacity: 1;
